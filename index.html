@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MES 모니터링 프로그램</title>
+<link rel="icon" href="MES_QUIZ_icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <header><div class="brand"><b>MES</b><span>모니터링 프로그램</span></div><div class="status">● 정상 운영</div></header>
+  <div class="layout">
+    <aside><div class="menu-title">MES MENU</div>
+      <button data-page="dashboard">생산 현황</button><button data-page="dashboard">출고 현황</button><button data-page="dashboard">품질 현황</button>
+      <button data-page="quiz">★ 두뇌 점검</button><button data-page="ranking">🏆 랭킹보드</button>
+    </aside>
+    <main id="content"></main>
+  </div>
+</div>
+<script src="config.js"></script><script src="questions.js"></script><script src="app.js"></script>
+</body></html>
